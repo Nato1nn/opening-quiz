@@ -148,5 +148,35 @@ export const openings = [
     anime: "Serial Experiments Lain",
     audio: "serialexperimentslain.mp3",
     video: "serialexperimentslain.mp4"
+  },
+  {
+    anime: "Beastars",
+    audio: "beastars.mp3",
+    video: "beastars.mp4"
+  },
+  {
+    anime: "Demon Slayer",
+    audio: "demonslayer.mp3",
+    video: "demonslayer.mp4"
+  },
+  {
+    anime: "High School DxD",
+    audio: "highschooldxd.mp3",
+    video: "highschooldxd.mp4"
+  },
+  {
+    anime: "Overlord",
+    audio: "overlord.mp3",
+    video: "overlord.mp4"
+  },
+  {
+    anime: "Steins Gate",
+    audio: "steinsgate.mp3",
+    video: "steinsgate.mp4"
+  },
+  {
+    anime: "The Promised Neverland",
+    audio: "thepromisedneverland.mp3",
+    video: "thepromisedneverland.mp4"
   }
 ]
