@@ -30,13 +30,11 @@ function App() {
   if (timeLeft <= 5) barColor = "#ff3b3b"
   else if (timeLeft <= 10) barColor = "#ffd93b"
 
-  // 🔊 Atualiza volume para áudio e vídeo
   useEffect(() => {
     if (audioRef.current) audioRef.current.volume = volume
     if (videoRef.current) videoRef.current.volume = volume
   }, [volume, current])
 
-  // ⏳ TIMER
   useEffect(() => {
     if (!current || showResult) return
 
@@ -61,7 +59,6 @@ function App() {
     return () => clearInterval(interval)
   }, [current, showResult])
 
-  // 🔄 Próxima rodada automática
   useEffect(() => {
     if (showResult && videoEnded && lives > 0 && !gameOver) {
       startRoundSolo()
@@ -128,6 +125,13 @@ function App() {
     }
   }
 
+  function skipVideo() {
+    if (videoRef.current) {
+      videoRef.current.pause()
+    }
+    setVideoEnded(true)
+  }
+
   function resetGame() {
     setScore(0)
     setLives(3)
@@ -143,7 +147,6 @@ function App() {
     setResultMessage("")
   }
 
-  // 💀 GAME OVER
   if (gameOver) {
     return (
       <div style={{
@@ -183,7 +186,6 @@ function App() {
     )
   }
 
-  // 🎮 TELA INICIAL
   if (!started) {
     return (
       <div style={{
@@ -221,11 +223,8 @@ function App() {
       <h3>⭐ Pontuação: {score}</h3>
       <h3>❤️ Vidas: {lives}</h3>
 
-      {/* 🔊 SLIDER AGORA SEMPRE VISÍVEL */}
       <div style={{ margin: "15px 0" }}>
-        <label>
-          🔊 Volume: {Math.round(volume * 100)}%
-        </label>
+        <label>🔊 Volume: {Math.round(volume * 100)}%</label>
         <br />
         <input
           type="range"
@@ -241,7 +240,6 @@ function App() {
       {!showResult && (
         <>
           <p>🎵 Tocando abertura...</p>
-
           <audio ref={audioRef} key={current.audio} src={current.audio} />
 
           <div className="options">
@@ -268,6 +266,23 @@ function App() {
             autoPlay
             onEnded={() => setVideoEnded(true)}
           />
+
+          <button
+            onClick={skipVideo}
+            style={{
+              marginTop: "15px",
+              padding: "10px 25px",
+              fontSize: "16px",
+              borderRadius: "8px",
+              border: "none",
+              cursor: "pointer",
+              backgroundColor: "#00ffcc",
+              color: "#000",
+              fontWeight: "bold"
+            }}
+          >
+            ⏭ Pular vídeo
+          </button>
         </>
       )}
     </div>

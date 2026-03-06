@@ -178,5 +178,70 @@ export const openings = [
     anime: "The Promised Neverland",
     audio: "thepromisedneverland.mp3",
     video: "thepromisedneverland.mp4"
+  },
+  {
+    anime: "Akame ga Kill!",
+    audio: "akamegakill.mp3",
+    video: "akamegakill.mp4"
+  },
+  {
+    anime: "Assassination Classroom",
+    audio: "assassinationclassroom.mp3",
+    video: "assassinationclassroom.mp4"
+  },
+  {
+    anime: "Black Clover",
+    audio: "blackclover.mp3",
+    video: "blackclover.mp4"
+  },
+  {
+    anime: "Boruto Next Generations",
+    audio: "borutonextgenerations.mp3",
+    video: "borutonextgenerations.mp4"
+  },
+  {
+     anime: "Sousou no Frieren",
+    audio: "frieren.mp3",
+    video: "frieren.mp4"
+  },
+  {
+     anime: "Goblin Slayer",
+    audio: "goblinslayer.mp3",
+    video: "goblinslayer.mp4"
+  },
+  {
+     anime: "JoJo's Bizarre Adventure",
+    audio: "jojosbizarreadventure.mp3",
+    video: "jojosbizarreadventure.mp4"
+  },
+  {
+    anime: "KonoSuba",
+    audio: "konosuba.mp3",
+    video: "konosuba.mp4"
+  },
+  {
+    anime: "Naruto Shippuuden",
+    audio: "narutoshippuden.mp3",
+    video: "narutoshippuden.mp4"
+  },
+  {
+    anime: "No Game No Life",
+    audio: "nogamenolife.mp3",
+    video: "nogamenolife.mp4"
+  },
+  {
+    anime: "Pokémon",
+    audio: "pokemon.mp3",
+    video: "pokemon.mp4"
+  },
+  {
+    anime: "Soul Eater",
+    audio: "souleater.mp3",
+    video: "souleater.mp4"
+  },
+  {
+    anime: "Tengoku Daimakyou",
+    audio: "tengokudaimakyou.mp3",
+    video: "tengokudaimakyou.mp4"
   }
 ]
