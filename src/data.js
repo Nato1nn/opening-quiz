@@ -243,5 +243,65 @@ export const openings = [
     anime: "Tengoku Daimakyou",
     audio: "tengokudaimakyou.mp3",
     video: "tengokudaimakyou.mp4"
+  },
+  {
+    anime: "Dr. Stone",
+    audio: "drstone.mp3",
+    video: "drstone.mp4"
+  },
+  {
+    anime: "Fate/Zero",
+    audio: "fatezero.mp3",
+    video: "fatezero.mp4"
+  },
+  {
+    anime: "Tensei Slime",
+    audio: "gotreincarnatedasaslime.mp3",
+    video: "gotreincarnatedasaslime.mp4"
+  },
+  {
+    anime: "Gurren Lagann",
+    audio: "gurrenlagann.mp3",
+    video: "gurrenlagann.mp4"
+  },
+  {
+    anime: "Hell's Paradise",
+    audio: "hellsparadise.mp3",
+    video: "hellsparadise.mp4"
+  },
+  {
+    anime: "Mashle",
+    audio: "mashle.mp3",
+    video: "mashle.mp4"
+  },
+  {
+    anime: "Mirai Nikki",
+    audio: "mirainikki.mp3",
+    video: "mirainikki.mp4"
+  },
+  {
+    anime: "Kobayashi-san Chi no Maid Dragon",
+    audio: "misskobayashisdragonmaid.mp3",
+    video: "misskobayashisdragonmaid.mp4"
+  },
+  {
+    anime: "Prison School",
+    audio: "prisonschool.mp3",
+    video: "prisonschool.mp4"
+  },
+  {
+    anime: "Shimoneta",
+    audio: "shimoneta.mp3",
+    video: "shimoneta.mp4"
+  },
+  {
+    anime: "Solo Leveling",
+    audio: "sololeveling.mp3",
+    video: "sololeveling.mp4"
+  },
+  {
+    anime: "Yu-Gi-Oh! GX",
+    audio: "yugiohgx.mp3",
+    video: "yugiohgx.mp4"
   }
 ]
