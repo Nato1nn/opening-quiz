@@ -32,6 +32,7 @@ function App() {
 
   const [nickname, setNickname] = useState("")
   const [ranking, setRanking] = useState([])
+  const [registered, setRegistered] = useState(false)
 
   const audioRef = useRef(null)
   const videoRef = useRef(null)
@@ -63,6 +64,7 @@ function App() {
     ])
 
     loadRanking()
+    setRegistered(true)
   }
 
   useEffect(() => {
@@ -179,6 +181,7 @@ function App() {
     setGameOver(false)
     setResultMessage("")
     setNickname("")
+    setRegistered(false)
   }
 
   if (gameOver) {
@@ -224,21 +227,23 @@ function App() {
             }}
           />
 
-          <button
-            onClick={saveScore}
-            style={{
-              marginTop:"10px",
-              padding:"12px",
-              width:"100%",
-              background:"#00ffcc",
-              border:"none",
-              borderRadius:"8px",
-              fontWeight:"bold",
-              cursor:"pointer"
-            }}
-          >
-            🏆 Registrar
-          </button>
+          {!registered && (
+            <button
+              onClick={saveScore}
+              style={{
+                marginTop:"10px",
+                padding:"12px",
+                width:"100%",
+                background:"#00ffcc",
+                border:"none",
+                borderRadius:"8px",
+                fontWeight:"bold",
+                cursor:"pointer"
+              }}
+            >
+              🏆 Registrar
+            </button>
+          )}
         </div>
 
         <h2 style={{marginTop:"30px"}}>Top 10</h2>

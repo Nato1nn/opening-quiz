@@ -280,7 +280,7 @@ export const openings = [
     video: "mirainikki.mp4"
   },
   {
-    anime: "Kobayashi-san Chi no Maid Dragon",
+    anime: "Kobayashi-san",
     audio: "misskobayashisdragonmaid.mp3",
     video: "misskobayashisdragonmaid.mp4"
   },
@@ -303,5 +303,85 @@ export const openings = [
     anime: "Yu-Gi-Oh! GX",
     audio: "yugiohgx.mp3",
     video: "yugiohgx.mp4"
+  },
+  {
+    anime: "Erased",
+    audio: "erased.mp3",
+    video: "erased.mp4"
+  },
+  {
+    anime: "Fullmetal Alchemist",
+    audio: "fullmetal.mp3",
+    video: "fullmetal.mp4"
+  },
+  {
+    anime: "Ishuzoku Reviewers",
+    audio: "ishuzokureviewers.mp3",
+    video: "ishuzokureviewers.mp4"
+  },
+  {
+    anime: "Mushoku Tensei",
+    audio: "mushokutensei.mp3",
+    video: "mushokutensei.mp4"
+  },
+  {
+    anime: "Nichijou",
+    audio: "nichijoumyordinary.mp3",
+    video: "nichijoumyordinary.mp4"
+  },
+  {
+    anime: "Shikanoko Nokonoko",
+    audio: "nokotan.mp3",
+    video: "nokotan.mp4"
+  },
+  {
+    anime: "Noragami",
+    audio: "noragami.mp3",
+    video: "noragami.mp4"
+  },
+  {
+    anime: "Re:Zero",
+    audio: "rezero.mp3",
+    video: "rezero.mp4"
+  },
+  {
+    anime: "Yu-Gi-Oh! Duel Monster",
+    audio: "yugioh.mp3",
+    video: "yugioh.mp4"
+  },
+  {
+    anime: "Blend S",
+    audio: "blends.mp3",
+    video: "blends.mp4"
+  },
+  {
+    anime: "Darling in the FranXX",
+    audio: "darlinginthefranxx.mp3",
+    video: "darlinginthefranxx.mp4"
+  },
+  {
+    anime: "The God of High School",
+    audio: "godofhighschool.mp3",
+    video: "godofhighschool.mp4"
+  },
+  {
+    anime: "Kill la Kill",
+    audio: "killkill.mp3",
+    video: "killkill.mp4"
+  },
+  {
+    anime: "Mob Psycho 100",
+    audio: "mobpsycho.mp3",
+    video: "mobpsycho.mp4"
+  },
+  {
+    anime: "Boku no Hero",
+    audio: "myheroacademia.mp3",
+    video: "myheroacademia.mp4"
+  },
+  {
+    anime: "Youjo Senki",
+    audio: "sagaoftanya.mp3",
+    video: "sagaoftanya.mp4"
   }
 ]
